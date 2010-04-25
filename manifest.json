@@ -1,0 +1,11 @@
+{
+  "name": "Google Time Zone Conversion",
+  "version": "0.1",
+  "description": "Adds simple time zone conversion to Google queries.",
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/search?*"],
+      "js": ["jquery.js", "convert.js"]
+    }
+  ]
+}
